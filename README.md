@@ -1,20 +1,32 @@
-# Online Banking System, with python Flask
+# Online Banking System using Flask (Python)
 
-[![Project Demo](https://img.youtube.com/vi/E0A_Z9ybDeo/0.jpg)](https://www.youtube.com/watch?v=E0A_Z9ybDeo)
+A simple web-based banking system built with Python and Flask to demonstrate basic banking operations.
 
-This is a simplified version of an online banking system, entirely with python Flask for the driver code and Html and css for the webpage design.
-This includes features like:
-* New Employee registration
-* Existing Employee Login
-* New Customer registration
-* Existing Customer Login
-* Money Withdraw & Deposit
+## Project Overview
+This project is a simplified version of an online banking system developed using the Flask framework.  
+It provides basic banking functionalities with a clean web interface using HTML and CSS.
 
-<br>
-For saving the employee and customer details, I have used json, instead of sql.
+## Features
+- New employee registration
+- Existing employee login
+- New customer registration
+- Existing customer login
+- Money withdrawal and deposit
+- View customer details
 
-<br>
-<br>
-To run this flask app, open a linux terminal here and execute 
+## Technologies Used
+- Python
+- Flask
+- HTML
+- CSS
+- JSON (for data storage)
 
-`export FLASK_APP=app.py` <br> `flask run`
+## Data Storage
+Employee and customer details are stored using **JSON files** instead of a SQL database to keep the project simple and beginner-friendly.
+
+## How to Run the Project
+
+1. Make sure Python is installed on your system  
+2. Install Flask:
+   ```bash
+   pip install flask
